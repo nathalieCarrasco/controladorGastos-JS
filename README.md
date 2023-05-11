@@ -1,2 +1,5 @@
 # controladorGastos-JS
-app en js , donde generamos un controlador de gsatos añadiendo un presupuesto y manejando los cambios que este pueda presentar todo con js vainilla 
+
+app desarrollada para implementar metodos trabajados en modulo dos de js 
+
+![app corriendo tamaño laptor](./img/appvista.png)
