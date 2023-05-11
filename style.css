@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Titan+One&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Titan One', cursive;
+
+}
+body{
+    background-image:url(./img/fondo.jpg);
+    background-position: center;
+    background-repeat:repeat;
+    background-size: contain;
+}
+#titulo{
+    margin-top: 35px;
+    text-align: center;
+    background-color: rgba(240, 248, 255, 0.603);
+    padding: 20px;
+    
+}
+#contenedor-principal{
+    margin-top: 50px !important;
+    width: 80%;
+    margin: 0 auto;
+    height: 500px;
+    max-height: min-content;
+    padding: 15px;
+    display: flex;
+    border: #000000 solid 3px;
+    border-radius: 25px;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    
+    background-color: rgba(240, 248, 255, 0.594);
+}
+.ingresoDatos__container{
+    display: flex;
+
+    justify-content: center;
+    flex-direction: column;
+}
+
+.ingresoDatos__presupuesto{
+    display: flex;
+    margin: 5px;
+    padding: 35px;
+    border: 3px solid #028602;
+    background-color: #32db72f2;
+    flex-direction: column;
+}
+.ingresoDatos__presupuesto input{
+    background-color: #54e38bf2;
+}
+.ingresoDatos__presupuesto h3{
+    margin-bottom: 18px;
+}
+
+.ingresoDatos__presupuesto button{
+    margin-top: 18px;
+    background-color: #54e38bf2;
+    color: #011e07;
+}
+.ingresoDatos__presupuesto button:hover{
+    background-color: #44ff4af2;
+    color: #ffff;
+    font-size: 22px;
+}
+.ingresoDatos__presupuesto input:hover{
+    background-color: #44ff4af2;
+}
+
+.ingresoDatos__gastos{
+    margin-top: 30px;
+    padding: 15px;
+    border: 2px solid #000000;
+    border: 3px solid #5f0101;
+    background-color: #ee2a2af2;
+    display: flex;
+    flex-direction: column;
+}
+
+.ingresoDatos__gastos h3{
+ font-size: 18px;
+ margin-bottom: 15px;
+ margin-top: 12px;
+}
+
+.ingresoDatos__gastos input{
+    background-color: #e15757f2;
+}
+
+.ingresoDatos__gastos input:hover{
+    background-color: #ff350cf2;
+}
+
+.ingresoDatos__gastos button{
+    margin-top: 18px;
+    background-color: #e15757f2;
+    color: #011e07;
+}
+.ingresoDatos__gastos button:hover{
+    background-color: #ff350cf2;
+    color: #ffff;
+    font-size: 22px;
+}
+.operaciones__container{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.operaciones__container__cajaDatos{
+    margin-top: 50px !important;
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
+    text-align: center;
+    margin: 0 auto;
+    flex-wrap: wrap;
+
+}
+.caja__saldo{
+    text-align: center;
+}
+.salidaDatos__container{
+    display: flex;
+    flex-direction: column;
+   
+}
+
+.salidaDatos__titulos{
+    display: flex;
+    flex-direction: row ;
+    gap: 15px;
+    margin-top: 50px;
+}
+
+.texto-alerta{
+    padding-top: 5px;
+    font-size: 18px;
+}
+
+.salidaDatos__lista li{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #000000;
+    padding: 30px 20px;
+    border-radius: 2px;
+}
+
+

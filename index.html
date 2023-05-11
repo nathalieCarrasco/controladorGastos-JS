@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="author" content="Nathalie-CC" />
+    <link rel="stylesheet" href="/style.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Controlador de Gatos</title>
+  </head>
+  <body>
+    <h1 id="titulo">Control de Gastos & Cuentas</h1>
+    <main id="contenedor-principal">
+      <section class="ingresoDatos__container">
+        <div class="ingresoDatos__presupuesto">
+          <h3>Ingresa tu presupuesto</h3>
+          <input type="text" />
+          <button>Calcular</button>
+        </div>
+        <div class="ingresoDatos__gastos">
+          <h3>Nombre del Gasto</h3>
+          <input type="text" class="ingresoDatos__gastos_nombre" />
+          <h3>Valor del Gasto</h3>
+          <input type="number" class="ingresoDatos__gastos_valor" />
+
+          <button>Añadir Gasto</button>
+        </div>
+      </section>
+
+      <section class="operaciones__container">
+        <div class="operaciones__container__cajaDatos">
+          <div class="caja__presupuesto">
+            <h2>Presupuesto</h2>
+            <p>$ = 0</p>
+          </div>
+
+          <div class="caja__gasto">
+            <h2>Gastos</h2>
+            <p>$ = 0</p>
+          </div>
+
+          <div class="caja__saldo">
+            <h2>Saldo</h2>
+            <p>$ = 0</p>
+            <p class="texto-alerta"></p>
+          </div>
+          
+        </div>
+
+        <div class="salidaDatos__container">
+          <div class="salidaDatos__titulos">
+            <p class="titulos__nombregasto">Nombre del gasto</p>
+            <p>Valor del Gasto</p>
+          </div>
+          <ul class="salidaDatos__lista"></ul>
+        </div>
+      </section>
+    </main>
+
+
+    <script src="app.js"></script>
+  </body>
+</html>
